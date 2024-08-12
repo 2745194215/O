@@ -39,7 +39,10 @@ cd target/release
 
 最后和官方的用法一样
 ```sh
-./ore mine 
+./ore mine
+```
+ubuntu系统
+ore mine --priority-fee 1 --cores  191
 ```
 ## 使用注意
 **Dynamic Fee功能和Jito不要叠加使用，会重复给小费**，使用Jito时，一定要把 Priority Fee 设置为0， 否则默认值是500000，建议使用命令为
