@@ -40,7 +40,6 @@ cd target/release
 最后和官方的用法一样
 ```sh
 ./ore mine
-```
 ubuntu系统
 ore mine --priority-fee 1 --cores  191
 ```
